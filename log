@@ -1,0 +1,5 @@
+#!/bin/bash
+# Usage: ./log "what you did this session"
+[ -z "$1" ] && { echo 'usage: ./log "what you did"'; exit 1; }
+printf -- "- %s · %s\n" "$(date +%Y-%m-%d)" "$*" >> LOG.md
+tail -3 LOG.md
