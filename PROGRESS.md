@@ -35,16 +35,25 @@ specialization.
 
 ## The rules
 
-1. Never paste code from the video. Type it.
-2. Pause and predict. Before he writes the next line, guess what it is.
-3. Solo rebuild happens on a **different day** to the code-along. Sleeping on it
+1. **Watch a chunk with your hands off, then type it.** Five or ten minutes,
+   however long one idea takes. Then pause and write that section from memory,
+   going back to the video only when stuck. Typing *while* listening is
+   transcription, and it eats the attention that understanding needs.
+2. Never paste code from the video. Type it.
+3. Segment by segment: whiteboard derivations, just watch. Library code, use the
+   watch-then-write rhythm. Debugging and tangents, just watch — you don't need
+   his typos in your repo.
+4. Solo rebuild happens on a **different day** to the code-along. Sleeping on it
    is doing work.
-4. Failing the solo rebuild is the point, not a setback. Note what you missed in
+5. Failing the solo rebuild is the point, not a setback. Note what you missed in
    the table above and rebuild again.
-5. Commit at the end of every session, even a bad one. The commit history is the
-   portfolio artifact.
-6. Stuck for more than 30 minutes: write the question down in LOG.md, move on,
+6. Commit as you go with `./save "what you did"`. Every time something works,
+   not just at the end of a session. The commit history is the portfolio
+   artifact.
+7. Stuck for more than 30 minutes: write the question down in LOG.md, move on,
    come back tomorrow.
+8. Lost for a second time in one sitting? You have been watching longer than you
+   have been doing. Stop the video and go play with the code you already have.
 
 ## Definition of done for the whole thing
 
