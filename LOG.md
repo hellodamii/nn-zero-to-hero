@@ -9,3 +9,4 @@ One line per session. Use `./log "..."`.
 - 2026-08-10 · started the core value object of micrograd and its visualization
 - 2026-08-11 · revise learning rules: watch-then-write instead of typing along live
 - 2026-08-11 · paused video 01 at manual backprop. math gap: derivatives. detour to 3blue1brown Essence of Calculus ch1-4 (what a derivative is + chain rule), then resume.
+- 2026-08-11 · finished 3b1b calculus ch1-4. chain rule landed: got a.grad by chaining rates, no recomputing L. resuming video 01 at manual backprop.
